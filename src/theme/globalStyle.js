@@ -11,6 +11,7 @@ injectGlobal `
   
   h1, h2, h3 {
     font-weight: normal;
+    margin: 0px;
   }
   
 `
