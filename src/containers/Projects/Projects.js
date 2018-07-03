@@ -4,13 +4,15 @@ import {
   ImageButton
 } from './Projects.style';
 import { Container } from 'theme/grid';
+import {A} from 'theme/types';
 
 class Projects extends Component {
   render() {
     return (
       <Container>
+        <h1><A href="cnn.com">pic title</A></h1>
         <Zoomy
-          imageUrl={require('../../assets/cat_profile.jpg')}
+          imageUrl={require('../../assets/everest.jpeg')}
           renderThumbnail={({ showImage }) =>
             <ImageButton onClick={showImage}>
               <img

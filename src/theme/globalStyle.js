@@ -9,4 +9,8 @@ injectGlobal `
     font-size: 30px;
   }
   
+  h1, h2, h3 {
+    font-weight: normal;
+  }
+  
 `
