@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {torquoise, pink} from 'theme/variables';
+import {torquoise, pink, blue} from 'theme/variables';
 
 export const ImageButton = styled.div`
   cursor: pointer;
@@ -36,4 +36,10 @@ export const Index = styled.div`
 
 export const ImageContainer = styled.div`
    width: 100%;
+   margin: 0 auto;
+`;
+
+export const Title = styled.h1`
+  color: ${blue};
+  font-weight: bold;
 `;

@@ -6,6 +6,15 @@ export const Div = styled.div`
   ${({marginBottom})=> marginBottom && css`
     margin-bottom: ${marginBottom};  
    `}
+  ${({marginTop})=> marginTop && css`
+    margin-top: ${marginTop};  
+   `}
+   ${({marginLeft})=> marginLeft && css`
+    margin-left: ${marginLeft};  
+   `}
+   ${({marginRight})=> marginRight && css`
+    margin-right: ${marginRight};  
+   `}
 `;
 
 // order important.  tablet before phone or it gets
@@ -29,6 +38,7 @@ export const Container = styled(Div)`
 
 export const Relative = styled(Div)`
   position: relative;
+  
 `;
 
 export const Flex = styled(Div)`

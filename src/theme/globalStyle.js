@@ -1,4 +1,5 @@
 import {injectGlobal} from 'styled-components';
+import {myrtle} from 'theme/variables'
 
 /* eslint-disable */
 injectGlobal `
@@ -7,6 +8,7 @@ injectGlobal `
   body {
     font-family: 'Anonymous Pro', monospace;
     font-size: 30px;
+    color: ${myrtle};
   }
   
   h1, h2, h3 {

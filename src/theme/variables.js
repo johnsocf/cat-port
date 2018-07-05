@@ -1,4 +1,4 @@
-export const torquoise = '#16EOBD';
+export const torquoise = '#16E0BD';
 export const blue = '#80CED7';
 export const magenta = '#F092DD';
 

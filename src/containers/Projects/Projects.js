@@ -3,7 +3,8 @@ import Zoomy from 'react-zoomy';
 import {
   ImageButton,
   Index,
-  ImageContainer
+  ImageContainer,
+  Title
 } from './Projects.style';
 import { Container, Relative, Flex } from 'theme/grid';
 import {A} from 'theme/types';
@@ -13,13 +14,14 @@ class Projects extends Component {
   render() {
     return (
       <Container>
-        <Relative marginBottom="100px">
+        <Title>Projects</Title>
+        <Relative marginTop="50px" marginBottom="50px">
           <Index>
             <h1>01</h1>
           </Index>
           <h1><A href="cnn.com">pic title</A></h1>
         </Relative>
-        <Flex justify={'center'}>
+        <Flex marginBottom="50px" justify={'center'}>
           <Zoomy
             imageUrl={require('../../assets/everest.jpeg')}
             renderThumbnail={({ showImage }) =>
@@ -44,7 +46,7 @@ class Projects extends Component {
           </Index>
           <h1><A href="cnn.com">pic title parallax</A></h1>
         </Relative>
-        <ImageContainer>
+        <ImageContainer id="test">
           <ParallaxImage reduceHeight={1/3} src={require('../../assets/sky.jpg')}></ParallaxImage>
         </ImageContainer>
         <br/>
