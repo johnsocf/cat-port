@@ -30,6 +30,10 @@ export const Index = styled.div`
     font-weight: bold;
     color: ${pink};
     opacity: 0.4
-    transform: translateY(20%);
+    transform: translateY(100%);
   }
+`;
+
+export const ImageContainer = styled.div`
+   width: 100%;
 `;

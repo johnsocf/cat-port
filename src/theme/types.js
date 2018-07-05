@@ -11,14 +11,15 @@ export const A = styled.a`
    position: absolute;
    left: 0;
    bottom: 0;
-   height: 10%;
-   width: 100%;
+   height: 100%;
+   width: 0;
    z-index: -1;
    background-color: ${myrtle};
-   transition: height .1s, background-color .1s;
+   transition: height .1s, background-color .2s, width .1s, background-color .2s;
  }
  &:hover:after {
-   height: 40%;
+   //height: 100%;
+   width: 100%;
    background-color: ${pink};
  }
 `;
