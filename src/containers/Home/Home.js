@@ -1,8 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import styled from 'styled-components';
-import {Container} from 'theme/grid';
+import {Container} from '../../theme/grid';
 import {Image, HeroImage, RevealP} from './Home.style';
-import WhenInView from 'components/WhenInView/WhenInView';
+import WhenInView from '../../components/WhenInView/WhenInView';
 
 export default class Home extends Component {
   static propTypes = {};

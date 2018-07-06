@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import {Flex, Div} from 'theme/grid';
-import {torquoise, komaru, pink} from 'theme/variables';
+import {Flex, Div} from '../../theme/grid';
+import {torquoise, komaru, pink} from '../../theme/variables';
 import {Link} from 'react-router';
 
 export const NavigationContainer = styled(Flex)`

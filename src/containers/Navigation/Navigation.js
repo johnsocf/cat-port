@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {NavigationContainer, NavItem} from './Navigation.style';
-import {A} from 'theme/types';
+import {A} from '../../theme/types';
 
 class Navigation extends Component {
   render() {

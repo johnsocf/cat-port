@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {blue, myrtle, torquoise, pink} from 'theme/variables';
+import {blue, myrtle, torquoise, pink} from './variables';
 
 export const A = styled.a`
  color: ${myrtle};

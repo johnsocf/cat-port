@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {torquoise, pink, blue} from 'theme/variables';
+import {torquoise, pink, blue} from '../../theme/variables';
 
 export const ImageButton = styled.div`
   cursor: pointer;

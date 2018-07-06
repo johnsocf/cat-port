@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {torquoise, pink} from 'theme/variables';
+import {torquoise, pink} from '../../theme/variables';
 
 export const Background = styled.div`
   position: fixed;

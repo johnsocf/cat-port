@@ -1,5 +1,5 @@
 import {injectGlobal} from 'styled-components';
-import {myrtle} from 'theme/variables'
+import {myrtle} from './variables'
 
 /* eslint-disable */
 injectGlobal `

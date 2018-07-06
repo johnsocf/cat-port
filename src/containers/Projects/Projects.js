@@ -6,11 +6,47 @@ import {
   ImageContainer,
   Title
 } from './Projects.style';
-import { Container, Relative, Flex } from 'theme/grid';
-import {A} from 'theme/types';
+import { Container, Relative, Flex } from '../../theme/grid';
+import {A} from '../../theme/types';
 import ParallaxImage from 'react-image-parallax2';
+import Modal from 'react-modal';
+
+const customStyles = {
+  content : {
+    top                   : '50%',
+    left                  : '50%',
+    right                 : 'auto',
+    bottom                : 'auto',
+    marginRight           : '-50%',
+    transform             : 'translate(-50%, -50%)'
+  }
+};
 
 class Projects extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      modalIsOpen: false
+    };
+
+    this.openModal = this.openModal.bind(this);
+    this.afterOpenModal = this.afterOpenModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
+  }
+
+  openModal() {
+    this.setState({modalIsOpen: true});
+  }
+
+  afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    //this.subtitle.style.color = '#f00';
+  }
+
+  closeModal() {
+    this.setState({modalIsOpen: false});
+  }
   render() {
     return (
       <Container>
@@ -22,6 +58,17 @@ class Projects extends Component {
           <h1><A href="cnn.com">pic title</A></h1>
         </Relative>
         <Flex marginBottom="50px" justify={'center'}>
+          <img  onClick={this.openModal} src={require('../../assets/everest.jpeg')}/>
+          <Modal
+            isOpen={this.state.modalIsOpen}
+            onAfterOpen={this.afterOpenModal}
+            onRequestClose={this.closeModal}
+            style={customStyles}
+            contentLabel="Example Modal"
+          >
+            <img src={require('../../assets/cat_profile.jpg')}/>
+            <button>go to site</button>
+          </Modal>
           <Zoomy
             imageUrl={require('../../assets/everest.jpeg')}
             renderThumbnail={({ showImage }) =>
