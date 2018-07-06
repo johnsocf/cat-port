@@ -18,10 +18,12 @@ export const NavItem = styled(Link)`
   color: ${pink};
   position: relative;
   padding: 10px;
+  text-decoration: none;
+  transition-duration: 500ms;
   &:hover {
     color: ${torquoise};
     background-color: ${komaru};
     z-index: -1;
-    transform: scale(1.3, 1.5);
+    transform: scale(1.1, 1.2);
   }
 `;
