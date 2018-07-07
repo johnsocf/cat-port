@@ -39,6 +39,16 @@ export const ImageContainer = styled.div`
    margin: 0 auto;
 `;
 
+export const OffsetImageContainer = styled.div`
+   width: 100%;
+   margin: 0 auto;
+   position: absolute;
+   bottom: 24px;
+   left: 0;
+   z-index: 10;
+   top: auto;
+`;
+
 export const Title = styled.h1`
   color: ${blue};
   font-weight: bold;

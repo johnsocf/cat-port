@@ -4,12 +4,17 @@ import {
   ImageButton,
   Index,
   ImageContainer,
+  OffsetImageContainer,
   Title
 } from './Projects.style';
 import { Container, Relative, Flex } from '../../theme/grid';
 import {A} from '../../theme/types';
 import ParallaxImage from 'react-image-parallax2';
 import Modal from 'react-modal';
+
+import {VideoContainer, StyledPlayButton} from '../AboutMe/AboutMe.style';
+import ReactPlayer from 'react-player';
+import { Parallax } from 'react-scroll-parallax';
 
 const customStyles = {
   content : {
@@ -58,7 +63,24 @@ class Projects extends Component {
           <h1><A href="cnn.com">pic title</A></h1>
         </Relative>
         <Flex marginBottom="50px" justify={'center'}>
-          <img  onClick={this.openModal} src={require('../../assets/everest.jpeg')}/>
+          {/*<img onClick={this.openModal} src={require('../../assets/everest.jpeg')}/>*/}
+          <Zoomy
+            imageUrl={require('../../assets/everest.jpeg')}
+            renderThumbnail={({ showImage }) =>
+              <ImageButton onClick={this.openModal}>
+                <img
+                  src={require('../../assets/everest.jpeg')}
+                  alt="mountain"/>
+              </ImageButton>
+            }
+            scale={[1.1, 1.1]}
+            imageProps={{
+              style: {
+                width: '100vw',
+                height: 'auto'
+              }
+            }}
+          />
           <Modal
             isOpen={this.state.modalIsOpen}
             onAfterOpen={this.afterOpenModal}
@@ -93,9 +115,73 @@ class Projects extends Component {
           </Index>
           <h1><A href="cnn.com">pic title parallax</A></h1>
         </Relative>
-        <ImageContainer id="test">
-          <ParallaxImage reduceHeight={1/3} src={require('../../assets/sky.jpg')}></ParallaxImage>
-        </ImageContainer>
+        <Relative marginBottom="100px">
+          <OffsetImageContainer id="test">
+            <ParallaxImage reduceHeight={1/10} src={require('../../assets/stencil.png')}></ParallaxImage>
+          </OffsetImageContainer>
+          <ImageContainer id="test">
+            <ParallaxImage reduceHeight={1/3} src={require('../../assets/sky.jpg')}></ParallaxImage>
+          </ImageContainer>
+        </Relative>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <VideoContainer
+        >
+          <StyledPlayButton
+          />
+          <ReactPlayer
+            loop
+            playing
+            height="auto"
+            width="100%"
+            url={require('../../assets/birds_flying.mp4')}>
+          </ReactPlayer>
+        </VideoContainer>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <Parallax
+          className="custom-class"
+          offsetYMax={20}
+          offsetYMin={-20}
+          slowerScrollRate="false"
+          tag="figure"
+        >
+          <ParallaxImage reduceHeight={1/5} src={require('../../assets/sky.jpg')}></ParallaxImage>
+        </Parallax>
+        <Parallax
+          className="custom-class"
+          offsetYMax={160}
+          offsetYMin={-160}
+          slowerScrollRate
+          tag="figure"
+        >
+          <OffsetImageContainer id="test">
+            <ParallaxImage reduceHeight={1/115} src={require('../../assets/stencil.png')}></ParallaxImage>
+          </OffsetImageContainer>
+        </Parallax>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <br/>
         <br/>
         <br/>
