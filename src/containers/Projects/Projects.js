@@ -5,6 +5,7 @@ import {
   Index,
   ImageContainer,
   OffsetImageContainer,
+  TagLineContainer,
   Title
 } from './Projects.style';
 import { Container, Relative, Flex } from '../../theme/grid';
@@ -115,23 +116,23 @@ class Projects extends Component {
           </Index>
           <h1><A href="cnn.com">pic title parallax</A></h1>
         </Relative>
-        <Relative marginBottom="100px">
-          <OffsetImageContainer id="test">
-            <ParallaxImage reduceHeight={1/10} src={require('../../assets/stencil.png')}></ParallaxImage>
-          </OffsetImageContainer>
-          <ImageContainer id="test">
-            <ParallaxImage reduceHeight={1/3} src={require('../../assets/sky.jpg')}></ParallaxImage>
-          </ImageContainer>
-        </Relative>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        {/*<Relative marginBottom="100px">*/}
+          {/*<OffsetImageContainer id="test">*/}
+            {/*<ParallaxImage reduceHeight={1/10} src={require('../../assets/stencil.png')}></ParallaxImage>*/}
+          {/*</OffsetImageContainer>*/}
+          {/*<ImageContainer id="test">*/}
+            {/*<ParallaxImage reduceHeight={1/3} src={require('../../assets/sky.jpg')}></ParallaxImage>*/}
+          {/*</ImageContainer>*/}
+        {/*</Relative>*/}
+        {/*<br/>*/}
+        {/*<br/>*/}
+        {/*<br/>*/}
+        {/*<br/>*/}
+        {/*<br/>*/}
+        {/*<br/>*/}
+        {/*<br/>*/}
+        {/*<br/>*/}
+        {/*<br/>*/}
         <VideoContainer
         >
           <StyledPlayButton
@@ -144,14 +145,6 @@ class Projects extends Component {
             url={require('../../assets/birds_flying.mp4')}>
           </ReactPlayer>
         </VideoContainer>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
         <br/>
         <Parallax
           className="custom-class"
@@ -172,6 +165,17 @@ class Projects extends Component {
           <OffsetImageContainer id="test">
             <ParallaxImage reduceHeight={1/115} src={require('../../assets/stencil.png')}></ParallaxImage>
           </OffsetImageContainer>
+        </Parallax>
+        <Parallax
+          className="custom-class"
+          offsetYMax={20}
+          offsetYMin={-20}
+          slowerScrollRate="false"
+          tag="figure"
+        >
+          <TagLineContainer id="test">
+            <h2>Front End Developer</h2>
+          </TagLineContainer>
         </Parallax>
         <br/>
         <br/>

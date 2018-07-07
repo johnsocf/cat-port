@@ -39,11 +39,19 @@ export const ImageContainer = styled.div`
    margin: 0 auto;
 `;
 
+export const TagLineContainer = styled.div`
+   width: 100%;
+   margin: 0 auto;
+   background: #000000;
+   text-align: right;
+   color: #FFFFFF;
+`;
+
 export const OffsetImageContainer = styled.div`
    width: 100%;
    margin: 0 auto;
    position: absolute;
-   bottom: 24px;
+   bottom: 75px;
    left: 0;
    z-index: 10;
    top: auto;
