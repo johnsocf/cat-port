@@ -9,6 +9,9 @@ export const ImageButton = styled.div`
   position: relative;
   display: flex;
   z-index: 1;
+  display: flex;
+  border: 10px solid white;
+  margin: 10px;
 
   & > img {
     transition: transform .3s;
