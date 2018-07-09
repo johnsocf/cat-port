@@ -4,9 +4,11 @@ import {torquoise, pink, blue} from '../../theme/variables';
 export const ImageButton = styled.div`
   cursor: pointer;
   overflow: hidden;
-  display: inline-block;
   height: 250px;
   width: 250px;
+  position: relative;
+  display: flex;
+  z-index: 1;
 
   & > img {
     transition: transform .3s;
@@ -15,6 +17,9 @@ export const ImageButton = styled.div`
   &:hover {
     & > img {
       transform: scale(1.3);
+    }
+    & > p {
+      left: 20px;
     }
   }
 `;
@@ -60,4 +65,20 @@ export const OffsetImageContainer = styled.div`
 export const Title = styled.h1`
   color: ${blue};
   font-weight: bold;
+`;
+
+export const ProjectTitle = styled.p`
+  position: absolute;
+  left: 10px;
+  padding: 4px;
+  margin: 0px;
+  bottom: 10px;
+  color: black;
+  background: white;
+  font-size: 24px;
+  align-self: center;
+  text-transform: uppercase;
+  transition: left .3s ease-in;
+  transition-delay: .15s;
+  z-index: 1;
 `;

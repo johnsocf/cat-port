@@ -8,7 +8,7 @@ export const NavigationContainer = styled(Flex)`
   right: 0;
   right: 2em;
   top: 1.8em;
-  z-index: 10;
+  z-index: 100;
 `;
 
 export const NavItem = styled(Link)`

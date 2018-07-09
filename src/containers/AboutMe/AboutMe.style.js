@@ -9,10 +9,12 @@ export const Title = styled.h1`
 `;
 
 export const VideoContainer = styled(Relative)`
-    width: 70%;
+    width: 100%;
     flex-shrink: 0;
     flex-grow: 0;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const StyledPlayButton = styled(PlayButton)`

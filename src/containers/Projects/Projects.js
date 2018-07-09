@@ -4,6 +4,7 @@ import {
   ImageButton,
   Index,
   ImageContainer,
+  ProjectTitle,
   OffsetImageContainer,
   TagLineContainer,
   Title
@@ -12,6 +13,7 @@ import { Container, Relative, Flex } from '../../theme/grid';
 import {A} from '../../theme/types';
 import ParallaxImage from 'react-image-parallax2';
 import Modal from 'react-modal';
+import './Project.style.css';
 
 import {VideoContainer, StyledPlayButton} from '../AboutMe/AboutMe.style';
 import ReactPlayer from 'react-player';
@@ -24,16 +26,22 @@ const customStyles = {
     right                 : 'auto',
     bottom                : 'auto',
     marginRight           : '-50%',
-    transform             : 'translate(-50%, -50%)'
+    transform             : 'translate(-50%, -50%)',
+    zIndex                : '1000'
   }
 };
+
+
+Modal.setAppElement('body');
+
 
 class Projects extends Component {
   constructor() {
     super();
 
     this.state = {
-      modalIsOpen: false
+      modalIsOpen: false,
+      testText: ''
     };
 
     this.openModal = this.openModal.bind(this);
@@ -41,8 +49,10 @@ class Projects extends Component {
     this.closeModal = this.closeModal.bind(this);
   }
 
-  openModal() {
-    this.setState({modalIsOpen: true});
+  openModal(event, testText) {
+    console.log('test', testText);
+    this.setState({modalIsOpen: true, testText: testText});
+    //this.setState({currentText: testText});
   }
 
   afterOpenModal() {
@@ -55,7 +65,61 @@ class Projects extends Component {
   }
   render() {
     return (
-      <Container>
+      <Container id="main">
+        <Parallax
+          className="vid-custom"
+          slowerScrollRate="true"
+          offsetYMax={-20}
+          offsetYMin={120}>
+          <VideoContainer>
+            {/*<StyledPlayButton*/}
+            {/*/>*/}
+            <ReactPlayer
+              loop
+              playing
+              height="auto"
+              width="100%"
+              url={require('../../assets/birds_flying.mp4')}>
+            </ReactPlayer>
+          </VideoContainer>
+        </Parallax>
+        <Parallax
+          className="custom-class"
+          offsetYMax={20}
+          offsetYMin={-20}
+          slowerScrollRate="false"
+          tag="figure"
+        >
+          <ParallaxImage reduceHeight={1/5} src={require('../../assets/sky.jpg')}></ParallaxImage>
+        </Parallax>
+        <Parallax
+          className="custom-class"
+          offsetYMax={160}
+          offsetYMin={-160}
+          slowerScrollRate
+          tag="figure"
+        >
+          <OffsetImageContainer id="test">
+            <ParallaxImage reduceHeight={1/115} src={require('../../assets/stencil.png')}></ParallaxImage>
+          </OffsetImageContainer>
+        </Parallax>
+        <Parallax
+          className="custom-class"
+          offsetYMax={20}
+          offsetYMin={-20}
+          slowerScrollRate="false"
+          tag="figure"
+        >
+          <TagLineContainer id="test">
+            <h2>Front End Developer</h2>
+          </TagLineContainer>
+        </Parallax>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <Title>Projects</Title>
         <Relative marginTop="50px" marginBottom="50px">
           <Index>
@@ -68,10 +132,11 @@ class Projects extends Component {
           <Zoomy
             imageUrl={require('../../assets/everest.jpeg')}
             renderThumbnail={({ showImage }) =>
-              <ImageButton onClick={this.openModal}>
+              <ImageButton onClick={(evt)=>this.openModal(evt, 'test')}>
                 <img
                   src={require('../../assets/everest.jpeg')}
                   alt="mountain"/>
+                <ProjectTitle>Project</ProjectTitle>
               </ImageButton>
             }
             scale={[1.1, 1.1]}
@@ -82,16 +147,6 @@ class Projects extends Component {
               }
             }}
           />
-          <Modal
-            isOpen={this.state.modalIsOpen}
-            onAfterOpen={this.afterOpenModal}
-            onRequestClose={this.closeModal}
-            style={customStyles}
-            contentLabel="Example Modal"
-          >
-            <img src={require('../../assets/cat_profile.jpg')}/>
-            <button>go to site</button>
-          </Modal>
           <Zoomy
             imageUrl={require('../../assets/everest.jpeg')}
             renderThumbnail={({ showImage }) =>
@@ -133,69 +188,37 @@ class Projects extends Component {
         {/*<br/>*/}
         {/*<br/>*/}
         {/*<br/>*/}
-        <VideoContainer
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+          <Modal
+          isOpen={this.state.modalIsOpen}
+          onAfterOpen={this.afterOpenModal}
+          onRequestClose={this.closeModal}
+          style={customStyles}
+          contentLabel="Example Modal"
         >
-          <StyledPlayButton
-          />
-          <ReactPlayer
-            loop
-            playing
-            height="auto"
-            width="100%"
-            url={require('../../assets/birds_flying.mp4')}>
-          </ReactPlayer>
-        </VideoContainer>
-        <br/>
-        <Parallax
-          className="custom-class"
-          offsetYMax={20}
-          offsetYMin={-20}
-          slowerScrollRate="false"
-          tag="figure"
-        >
-          <ParallaxImage reduceHeight={1/5} src={require('../../assets/sky.jpg')}></ParallaxImage>
-        </Parallax>
-        <Parallax
-          className="custom-class"
-          offsetYMax={160}
-          offsetYMin={-160}
-          slowerScrollRate
-          tag="figure"
-        >
-          <OffsetImageContainer id="test">
-            <ParallaxImage reduceHeight={1/115} src={require('../../assets/stencil.png')}></ParallaxImage>
-          </OffsetImageContainer>
-        </Parallax>
-        <Parallax
-          className="custom-class"
-          offsetYMax={20}
-          offsetYMin={-20}
-          slowerScrollRate="false"
-          tag="figure"
-        >
-          <TagLineContainer id="test">
-            <h2>Front End Developer</h2>
-          </TagLineContainer>
-        </Parallax>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+          <img src={require('../../assets/cat_profile.jpg')}/>
+          <button>{this.state.testText}</button>
+        </Modal>
       </Container>
+
     );
   }
 }
