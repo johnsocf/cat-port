@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9bb7a13f-4a05-4e48-a66c-5f16c42e2ffb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Navigation/Navigation.js" afterPath="$PROJECT_DIR$/src/containers/Navigation/Navigation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Navigation/Navigation.style.js" afterPath="$PROJECT_DIR$/src/containers/Navigation/Navigation.style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Projects/Projects.style.js" afterPath="$PROJECT_DIR$/src/containers/Projects/Projects.style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Projects/Projects.js" afterPath="$PROJECT_DIR$/src/containers/Projects/Projects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,32 +22,64 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6954315">
+    <splitter split-orientation="horizontal" split-proportion="0.83573806">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Projects.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="115" column="19" lean-forward="false" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+                <state relative-caret-position="74">
+                  <caret line="123" column="9" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="12" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                     <element signature="e#1667#2140#0" expanded="false" />
                     <element signature="e#2149#2433#0" expanded="false" />
                     <element signature="e#2442#2805#0" expanded="false" />
                     <element signature="e#2814#3109#0" expanded="false" />
-                    <element signature="e#3422#4692#0" expanded="false" />
-                    <element signature="e#4167#4676#0" expanded="false" />
+                    <element signature="e#3460#4804#0" expanded="false" />
+                    <element signature="e#4245#4786#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Navigation.style.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Navigation.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="react-toggle-state.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/react-toggle-state/lib/react-toggle-state.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="364">
+                  <caret line="92" column="21" lean-forward="false" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="react-zoomy.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node_modules/react-zoomy/lib/react-zoomy.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="281">
+                  <caret line="304" column="4" lean-forward="false" selection-start-line="304" selection-start-column="4" selection-end-line="304" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Navigation.style.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.style.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+                <state relative-caret-position="515">
+                  <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -61,43 +97,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="react-toggle-state.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/node_modules/react-toggle-state/lib/react-toggle-state.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="94">
-                  <caret line="112" column="2" lean-forward="false" selection-start-line="112" selection-start-column="5" selection-end-line="115" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AboutMe.style.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/AboutMe/AboutMe.style.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PlayBtn.style.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/PlayBtn/PlayBtn.style.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="PlayBtn.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/containers/PlayBtn/PlayBtn.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="270">
-                  <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+                  <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -106,11 +110,21 @@
           <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/containers/App/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="grid.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/theme/grid.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="605">
+                  <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -123,16 +137,6 @@
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="grid.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/theme/grid.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="347">
-                  <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -157,8 +161,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>w</find>
-      <find>when</find>
       <find>wheni</find>
       <find>whenin</find>
       <find>t</find>
@@ -187,10 +189,12 @@
       <find>2</find>
       <find>25</find>
       <find>250</find>
+      <find>s</find>
+      <find>scroll</find>
     </findStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/src</dir>
       <dir>$PROJECT_DIR$/src/containers</dir>
+      <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -212,21 +216,21 @@
         <option value="$PROJECT_DIR$/src/theme/globalStyle.js" />
         <option value="$PROJECT_DIR$/src/theme/variables.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
-        <option value="$PROJECT_DIR$/src/containers/Navigation/Navigation.js" />
         <option value="$PROJECT_DIR$/node_modules/react-zoomy/src/react-zoomy.js" />
         <option value="$PROJECT_DIR$/src/theme/types.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/containers/PlayBtn/PlayBtn.js" />
         <option value="$PROJECT_DIR$/src/containers/AboutMe/AboutMe.js" />
-        <option value="$PROJECT_DIR$/node_modules/react-zoomy/lib/react-zoomy.js" />
-        <option value="$PROJECT_DIR$/node_modules/react-toggle-state/lib/react-toggle-state.js" />
         <option value="$PROJECT_DIR$/src/theme/grid.js" />
         <option value="$PROJECT_DIR$/src/containers/App/App.js" />
         <option value="$PROJECT_DIR$/src/containers/AboutMe/AboutMe.style.js" />
         <option value="$PROJECT_DIR$/src/containers/Projects/Project.style.css" />
-        <option value="$PROJECT_DIR$/src/containers/Projects/Projects.js" />
         <option value="$PROJECT_DIR$/src/containers/Projects/Projects.style.js" />
+        <option value="$PROJECT_DIR$/node_modules/react-zoomy/lib/react-zoomy.js" />
+        <option value="$PROJECT_DIR$/node_modules/react-toggle-state/lib/react-toggle-state.js" />
+        <option value="$PROJECT_DIR$/src/containers/Projects/Projects.js" />
         <option value="$PROJECT_DIR$/src/containers/Navigation/Navigation.style.js" />
+        <option value="$PROJECT_DIR$/src/containers/Navigation/Navigation.js" />
       </list>
     </option>
   </component>
@@ -242,10 +246,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1534" />
-    <option name="y" value="370" />
-    <option name="width" value="1429" />
-    <option name="height" value="731" />
+    <option name="x" value="-1515" />
+    <option name="y" value="721" />
+    <option name="width" value="1148" />
+    <option name="height" value="734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -263,6 +267,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -478,7 +483,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -600,29 +604,30 @@
       <workItem from="1530839234162" duration="9010000" />
       <workItem from="1530896600003" duration="484000" />
       <workItem from="1530897256709" duration="36000" />
-      <workItem from="1530917053773" duration="11466000" />
+      <workItem from="1530917053773" duration="11781000" />
+      <workItem from="1531260549042" duration="3025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42813000" />
+    <option name="totallyTimeSpent" value="46153000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1534" y="370" width="1429" height="731" extended-state="0" />
+    <frame x="-1515" y="721" width="1148" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17284815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2151568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -677,8 +682,8 @@
             <element signature="e#2149#2433#0" expanded="false" />
             <element signature="e#2442#2805#0" expanded="false" />
             <element signature="e#2814#3109#0" expanded="false" />
-            <element signature="e#3422#4692#0" expanded="false" />
-            <element signature="e#4167#4676#0" expanded="false" />
+            <element signature="e#3460#4804#0" expanded="false" />
+            <element signature="e#4245#4786#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -763,8 +768,8 @@
             <element signature="e#2149#2433#0" expanded="false" />
             <element signature="e#2442#2805#0" expanded="false" />
             <element signature="e#2814#3109#0" expanded="false" />
-            <element signature="e#3422#4692#0" expanded="false" />
-            <element signature="e#4167#4676#0" expanded="false" />
+            <element signature="e#3460#4804#0" expanded="false" />
+            <element signature="e#4245#4786#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -903,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-zoomy/src/react-zoomy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -930,19 +928,19 @@
         <state relative-caret-position="930">
           <caret line="63" column="33" lean-forward="false" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
           <folding>
-            <marker date="1530974142000" expanded="true" signature="145:1836" ph="{&quot;autoprefixer&quot;: &quot;7.1.6&quot;...}" />
-            <marker date="1530974142000" expanded="true" signature="1851:2048" ph="{&quot;start&quot;: &quot;node scripts/start.js&quot;...}" />
-            <marker date="1530974142000" expanded="true" signature="2060:2936" ph="{&quot;testEnvironment&quot;: &quot;node&quot;...}" />
-            <marker date="1530974142000" expanded="true" signature="2089:2126" ph="[...]" />
-            <marker date="1530974142000" expanded="true" signature="2146:2191" ph="[...]" />
-            <marker date="1530974142000" expanded="true" signature="2210:2326" ph="[...]" />
-            <marker date="1530974142000" expanded="true" signature="2411:2628" ph="{&quot;^.+\.(js|jsx|mjs)$&quot;: &quot;&lt;rootDir&gt;/node_modules/babel-jest&quot;...}" />
-            <marker date="1530974142000" expanded="true" signature="2661:2721" ph="[...]" />
-            <marker date="1530974142000" expanded="true" signature="2747:2797" ph="{&quot;^react-native$&quot;: &quot;react-native-web&quot;...}" />
-            <marker date="1530974142000" expanded="true" signature="2827:2932" ph="[...]" />
-            <marker date="1530974142000" expanded="true" signature="2949:2995" ph="{...}" />
-            <marker date="1530974142000" expanded="true" signature="2966:2991" ph="[...]" />
-            <marker date="1530974142000" expanded="true" signature="3015:3047" ph="{&quot;extends&quot;: &quot;react-app&quot;...}" />
+            <marker date="1531265934000" expanded="true" signature="145:1985" ph="{&quot;autoprefixer&quot;: &quot;7.1.6&quot;...}" />
+            <marker date="1531265934000" expanded="true" signature="2000:2197" ph="{&quot;start&quot;: &quot;node scripts/start.js&quot;...}" />
+            <marker date="1531265934000" expanded="true" signature="2209:3085" ph="{&quot;testEnvironment&quot;: &quot;node&quot;...}" />
+            <marker date="1531265934000" expanded="true" signature="2238:2275" ph="[...]" />
+            <marker date="1531265934000" expanded="true" signature="2295:2340" ph="[...]" />
+            <marker date="1531265934000" expanded="true" signature="2359:2475" ph="[...]" />
+            <marker date="1531265934000" expanded="true" signature="2560:2777" ph="{&quot;^.+\.(js|jsx|mjs)$&quot;: &quot;&lt;rootDir&gt;/node_modules/babel-jest&quot;...}" />
+            <marker date="1531265934000" expanded="true" signature="2810:2870" ph="[...]" />
+            <marker date="1531265934000" expanded="true" signature="2896:2946" ph="{&quot;^react-native$&quot;: &quot;react-native-web&quot;...}" />
+            <marker date="1531265934000" expanded="true" signature="2976:3081" ph="[...]" />
+            <marker date="1531265934000" expanded="true" signature="3098:3144" ph="{...}" />
+            <marker date="1531265934000" expanded="true" signature="3115:3140" ph="[...]" />
+            <marker date="1531265934000" expanded="true" signature="3164:3196" ph="{&quot;extends&quot;: &quot;react-app&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -955,14 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/theme/variables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/AboutMe/AboutMe.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -971,36 +961,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-zoomy/lib/react-zoomy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="301" column="7" lean-forward="false" selection-start-line="293" selection-start-column="5" selection-end-line="301" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-toggle-state/lib/react-toggle-state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="112" column="2" lean-forward="false" selection-start-line="112" selection-start-column="5" selection-end-line="115" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/theme/grid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/AboutMe/AboutMe.style.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="195">
           <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1016,7 +982,15 @@
     <entry file="file://$PROJECT_DIR$/src/containers/PlayBtn/PlayBtn.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/theme/variables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1029,28 +1003,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/theme/grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/App/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-toggle-state/lib/react-toggle-state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="92" column="21" lean-forward="false" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-zoomy/lib/react-zoomy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="304" column="4" lean-forward="false" selection-start-line="304" selection-start-column="4" selection-end-line="304" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="115" column="19" lean-forward="false" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+        <state relative-caret-position="74">
+          <caret line="123" column="9" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#1667#2140#0" expanded="false" />
             <element signature="e#2149#2433#0" expanded="false" />
             <element signature="e#2442#2805#0" expanded="false" />
             <element signature="e#2814#3109#0" expanded="false" />
-            <element signature="e#3422#4692#0" expanded="false" />
-            <element signature="e#4167#4676#0" expanded="false" />
+            <element signature="e#3460#4804#0" expanded="false" />
+            <element signature="e#4245#4786#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1067,10 +1065,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.style.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="515">
+          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

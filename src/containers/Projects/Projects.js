@@ -121,56 +121,58 @@ class Projects extends Component {
         <br/>
         <br/>
         <Title>Projects</Title>
-        <Relative marginTop="50px" marginBottom="50px">
-          <Index>
-            <h1>01</h1>
-          </Index>
-          <h1><A href="cnn.com">pic title</A></h1>
-        </Relative>
-        <Flex marginBottom="50px" justify={'center'}>
-          {/*<img onClick={this.openModal} src={require('../../assets/everest.jpeg')}/>*/}
-          <Zoomy
-            imageUrl={require('../../assets/everest.jpeg')}
-            renderThumbnail={({ showImage }) =>
-              <ImageButton onClick={(evt)=>this.openModal(evt, 'test')}>
-                <img
-                  src={require('../../assets/everest.jpeg')}
-                  alt="mountain"/>
-                <ProjectTitle>Project</ProjectTitle>
-              </ImageButton>
-            }
-            scale={[1.1, 1.1]}
-            imageProps={{
-              style: {
-                width: '100vw',
-                height: 'auto'
+        <div id="work">
+          <Relative marginTop="50px" marginBottom="50px">
+            <Index>
+              <h1>01</h1>
+            </Index>
+            <h1><A href="cnn.com">pic title</A></h1>
+          </Relative>
+          <Flex marginBottom="50px" justify={'center'}>
+            {/*<img onClick={this.openModal} src={require('../../assets/everest.jpeg')}/>*/}
+            <Zoomy
+              imageUrl={require('../../assets/everest.jpeg')}
+              renderThumbnail={({ showImage }) =>
+                <ImageButton onClick={(evt)=>this.openModal(evt, 'test')}>
+                  <img
+                    src={require('../../assets/everest.jpeg')}
+                    alt="mountain"/>
+                  <ProjectTitle>Project</ProjectTitle>
+                </ImageButton>
               }
-            }}
-          />
-          <Zoomy
-            imageUrl={require('../../assets/everest.jpeg')}
-            renderThumbnail={({ showImage }) =>
-              <ImageButton onClick={showImage}>
-                <img
-                  src={require('../../assets/everest.jpeg')}
-                  alt="mountain"/>
-              </ImageButton>
-            }
-            scale={[1.1, 1.1]}
-            imageProps={{
-              style: {
-                width: '100vw',
-                height: 'auto'
+              scale={[1.1, 1.1]}
+              imageProps={{
+                style: {
+                  width: '100vw',
+                  height: 'auto'
+                }
+              }}
+            />
+            <Zoomy
+              imageUrl={require('../../assets/everest.jpeg')}
+              renderThumbnail={({ showImage }) =>
+                <ImageButton onClick={showImage}>
+                  <img
+                    src={require('../../assets/everest.jpeg')}
+                    alt="mountain"/>
+                </ImageButton>
               }
-            }}
-          />
-        </Flex>
-        <Relative marginBottom="100px">
-          <Index>
-            <h1>02</h1>
-          </Index>
-          <h1><A href="cnn.com">pic title parallax</A></h1>
-        </Relative>
+              scale={[1.1, 1.1]}
+              imageProps={{
+                style: {
+                  width: '100vw',
+                  height: 'auto'
+                }
+              }}
+            />
+          </Flex>
+          <Relative marginBottom="100px">
+            <Index>
+              <h1>02</h1>
+            </Index>
+            <h1><A href="cnn.com">pic title parallax</A></h1>
+          </Relative>
+        </div>
         {/*<Relative marginBottom="100px">*/}
           {/*<OffsetImageContainer id="test">*/}
             {/*<ParallaxImage reduceHeight={1/10} src={require('../../assets/stencil.png')}></ParallaxImage>*/}
