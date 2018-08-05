@@ -3,6 +3,7 @@ import {Container, Flex} from '../../theme/grid';
 import {H2, P} from '../../theme/types';
 import { reduxForm, Field } from 'redux-form';
 import {Title} from './ContactMe.style';
+import fire from '../../index';
 
 
 let SignInForm = props => {
@@ -133,6 +134,7 @@ class ContactMe extends Component {
 
   handleSignIn = values => {
     console.log(values);
+    fire.database().ref('messages').push( values );
   };
 
   render() {
