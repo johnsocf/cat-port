@@ -12,7 +12,7 @@ class Navigation extends Component {
         <NavItem><Scrollchor animate={{offset: 30, duration: 800}} className="nav-link" to="#test">Test</Scrollchor></NavItem>
         <NavItem><Scrollchor className="nav-link" to="#work">Work</Scrollchor></NavItem>
         <NavItem to="/aboutMe">About Me</NavItem>
-        <NavItem>Contact</NavItem>
+        <NavItem><NavItemAnchor to="/contactMe">Contact Me</NavItemAnchor></NavItem>
       </NavigationContainer>
     );
   }
