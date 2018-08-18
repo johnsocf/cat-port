@@ -7,7 +7,12 @@ import {
   ProjectTitle,
   OffsetImageContainer,
   TagLineContainer,
-  Title
+  Title,
+  Overlay,
+  CloseModal,
+  WebsiteTarget,
+    ProjContainer,
+  ProjAnimTitle
 } from './Projects.style';
 import { Container, Relative, Flex } from '../../theme/grid';
 import {A} from '../../theme/types';
@@ -124,36 +129,41 @@ class Projects extends Component {
         <div id="work">
           <Relative marginTop="50px" marginBottom="50px">
             <Index>
-              <h1>01</h1>
+              <h1>ASPEN</h1>
             </Index>
             <h1><A href="cnn.com">pic title</A></h1>
           </Relative>
           <Flex marginBottom="50px" justify={'center'}>
-            {/*<img onClick={this.openModal} src={require('../../assets/everest.jpeg')}/>*/}
-            <Zoomy
-              imageUrl={require('../../assets/everest.jpeg')}
-              renderThumbnail={({ showImage }) =>
-                <ImageButton onClick={(evt)=>this.openModal(evt, 'test')}>
+            {/*<img onClick={this.openModal} src={require('../../assets/aspen-desktop.jpeg')}/>*/}
+            <ProjContainer>
+                <ProjAnimTitle className="anim-title">Aspen Snowmass Website</ProjAnimTitle>
+                <Zoomy
+                    imageUrl={require('../../assets/aspen_desktop.png')}
+                    renderThumbnail={({ showImage }) =>
+                <ImageButton onClick={(evt)=>this.openModal(evt, 'https://www.aspensnowmass.com/')}>
                   <img
-                    src={require('../../assets/everest.jpeg')}
+                    src={require('../../assets/aspen_desktop.png')}
                     alt="mountain"/>
-                  <ProjectTitle>Project</ProjectTitle>
+
+                  <Overlay className="overlay"></Overlay>
                 </ImageButton>
               }
-              scale={[1.1, 1.1]}
-              imageProps={{
+                    scale={[1.1, 1.1]}
+                    imageProps={{
                 style: {
                   width: '100vw',
                   height: 'auto'
                 }
               }}
-            />
+                />
+            </ProjContainer>
+
             <Zoomy
-              imageUrl={require('../../assets/everest.jpeg')}
+              imageUrl={require('../../assets/aspen_portfolio_set.png')}
               renderThumbnail={({ showImage }) =>
                 <ImageButton onClick={showImage}>
                   <img
-                    src={require('../../assets/everest.jpeg')}
+                    src={require('../../assets/aspen_desktop.png')}
                     alt="mountain"/>
                 </ImageButton>
               }
@@ -216,8 +226,10 @@ class Projects extends Component {
           style={customStyles}
           contentLabel="Example Modal"
         >
-          <img src={require('../../assets/cat_profile.jpg')}/>
-          <button>{this.state.testText}</button>
+
+          <img onClick={(evt)=>this.closeModal()} src={require('../../assets/aspen_portfolio_set.png')}/>
+          <CloseModal onClick={(evt)=>this.closeModal()}>close modal</CloseModal>
+          <WebsiteTarget target="_blank" href={this.state.testText}>{this.state.testText}</WebsiteTarget>
         </Modal>
       </Container>
 

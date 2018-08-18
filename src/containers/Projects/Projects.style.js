@@ -5,7 +5,7 @@ export const ImageButton = styled.div`
   cursor: pointer;
   overflow: hidden;
   height: 250px;
-  width: 250px;
+  width: auto;
   position: relative;
   display: flex;
   z-index: 1;
@@ -23,6 +23,9 @@ export const ImageButton = styled.div`
     }
     & > p {
       left: 20px;
+    }
+    & > .overlay {
+      opacity: .7;
     }
   }
 `;
@@ -83,5 +86,64 @@ export const ProjectTitle = styled.p`
   text-transform: uppercase;
   transition: left .3s ease-in;
   transition-delay: .15s;
-  z-index: 1;
+  z-index: 3;
+`;
+
+export const Overlay = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: deeppink;
+  align-self: center;
+  transition: opacity .1s ease-in;
+  transition-delay: .05s;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+`;
+
+export const CloseModal = styled.button `
+  position: absolute;
+  top: 0px;
+  right: 0px;
+`;
+
+export const WebsiteTarget = styled.a`
+    position: absolute;
+    z-index: 100000000;
+    top: 50px;
+    color: white;
+    background: black;
+    padding: 6px;
+    left: 50px;
+    &:hover {
+       color: deeppink;
+    }
+`;
+
+export const ProjContainer = styled.div`
+   position: relative;
+   padding-top: 30px;
+   &:hover .anim-title {
+        left: 20px;
+   }
+`;
+
+export const ProjAnimTitle = styled.p`
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   padding: 4px;
+  margin: 0px;
+  bottom: 10px;
+  color: black;
+  background: transparent;
+  pointer-events: none;
+  font-size: 24px;
+  align-self: center;
+  text-transform: uppercase;
+  transition: left .3s ease-in;
+  transition-delay: .15s;
+  z-index: 3;
 `;

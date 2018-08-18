@@ -7,8 +7,8 @@ export const Background = styled.div`
   width: 100%;
   top: 10vh;
   height: 100%;
-  background-image: url(${require('../../assets/owl.jpg')});
-  background-color: ${pink};
+  //background-image: url(${require('../../assets/owl.jpg')});
+  //background-color: ${pink};
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
