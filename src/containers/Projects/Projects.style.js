@@ -25,7 +25,7 @@ export const ImageButton = styled.div`
       left: 20px;
     }
     & > .overlay {
-      opacity: .7;
+      opacity: .6;
     }
   }
 `;
@@ -50,12 +50,28 @@ export const ImageContainer = styled.div`
    margin: 0 auto;
 `;
 
+export const TagLineContainerJobTitle = styled.div`
+   width: 100%;
+   margin: 0 auto;
+   background: #000000;
+   text-align: right;
+   color: #FFFFFF;
+   height: 92px;
+   h2 {
+        font-size: 34px;
+        padding: 18px 45px;
+        font-weight: 800;
+        letter-spacing: 2px;
+   }
+`;
+
 export const TagLineContainer = styled.div`
    width: 100%;
    margin: 0 auto;
    background: #000000;
    text-align: right;
    color: #FFFFFF;
+
 `;
 
 export const OffsetImageContainer = styled.div`

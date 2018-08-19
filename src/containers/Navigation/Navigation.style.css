@@ -1,0 +1,5 @@
+.item-anchor.active {
+    background-color: black;
+    color: white;
+    font-size: 600;
+}

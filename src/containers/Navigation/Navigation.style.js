@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import {Flex, Div} from '../../theme/grid';
 import {torquoise, blue, pink} from '../../theme/variables';
 import {Link} from 'react-router';
+import './Navigation.style.css';
+//import { NavLink } from 'react-router-dom'
 //import { HashLink as Link } from 'react-router-hash-link';
 
 export const NavigationWrapper = styled.div`

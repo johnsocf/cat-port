@@ -10,8 +10,7 @@ import ContactMe from './containers/ContactMe/ContactMe';
 export default (
   <Router history={hashHistory}>
     <Route path="/" component={App}>
-      <IndexRoute component={Home}></IndexRoute>
-      <Route path="/projects" component={Projects}/>
+      <IndexRoute component={Projects}></IndexRoute>
       <Route path="/aboutMe" component={AboutMe}/>
       <Route path="/contactMe" component={ContactMe}/>
     </Route>

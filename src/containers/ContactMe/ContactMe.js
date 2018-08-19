@@ -4,88 +4,55 @@ import {H2, P} from '../../theme/types';
 import { reduxForm, Field } from 'redux-form';
 import {Title} from './ContactMe.style';
 import fire from '../../index';
+import {BackgroundContactImage, ContactContainer} from './ContactMe.style';
 
 
 let SignInForm = props => {
   const { handleSubmit } = props;
-  return <form onSubmit={handleSubmit} className="form">
-    <div className="field">
-      <div className="control">
-        <Field name="firstName" component={renderField} type="text" label="First Name"/>
-      </div>
-    </div>
-
-    <div className="field">
-      <div className="control">
-        <Field name="lastName" component={renderField} type="text" label="Last Name"/>
-      </div>
-    </div>
-
-    <div className="field">
-      <div className="control">
-        <Field name="email" component={renderField} type="email" label="Email Address"/>
-      </div>
-    </div>
-
-    <div className="field">
-      <div className="control">
-        <Field name="age" component={renderField} type="number" label="Age"/>
-      </div>
-    </div>
-
-    <div className="field">
-      <div className="control">
-        <label className="label">Proficiency</label>
-        <div className="select">
-          <Field className="input" name="proficiency" component="select">
-            <option />
-            <option value="beginner">Beginner Dev</option>
-            <option value="intermediate">Intermediate Dev</option>
-            <option value="expert">Expert Dev</option>
-          </Field>
+  return <ContactContainer>
+    <form onSubmit={handleSubmit} className="contact-me-form">
+      <div className="field">
+        <div className="control">
+          <Field name="firstName" component={renderField} type="text" label="First Name"/>
         </div>
       </div>
-    </div>
 
-    <div className="field">
-      <div className="control">
-        <label className="label">Gender</label>
-        <label className="radio">
-          <Field name="gender" component="input" type="radio" value="male" />
-          {' '}
-          Male
-        </label>
-        <label className="radio">
-          <Field name="gender" component="input" type="radio" value="female" />
-          {' '}
-          Female
-        </label>
+      <div className="field">
+        <div className="control">
+          <Field name="lastName" component={renderField} type="text" label="Last Name"/>
+        </div>
       </div>
-    </div>
 
-    <div className="field">
-      <div className="control">
-        <label className="checkbox">
-          <Field name="saveDetails" id="saveDetails" component="input" type="checkbox"/>
-          Save Details
-        </label>
+      <div className="field">
+        <div className="control">
+          <Field name="email" component={renderField} type="email" label="Email Address"/>
+        </div>
       </div>
-    </div>
 
-    <div className="field">
-      <div className="control">
-        <label className="label">Message</label>
-        <Field className="textarea" name="message" component="textarea" />
+      <div className="field">
+        <div className="control">
+          <Field name="age" component={renderField} type="number" label="Age"/>
+        </div>
       </div>
-    </div>
 
-    <div className="field">
-      <div className="control">
-        <button className="button is-link">Submit</button>
+      <div className="field">
+        <div className="control">
+          <label className="label">Message</label>
+          <Field className="textarea" name="message" component="textarea" />
+        </div>
       </div>
-    </div>
 
-  </form>;
+      <div className="field">
+        <div className="control">
+          <button className="button is-link">Submit</button>
+        </div>
+      </div>
+
+    </form>
+    <BackgroundContactImage>
+      <img src={require('../../assets/contact_clouds.png')}/>
+    </BackgroundContactImage>
+  </ContactContainer>;
 };
 
 const validate = val => {

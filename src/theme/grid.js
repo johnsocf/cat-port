@@ -22,7 +22,7 @@ export const Div = styled.div`
 export const Container = styled(Div)`
   padding-left: 120px;
   padding-right: 120px;
-  padding-top: 120px;
+  padding-top: 50px;
   //background-color: #80ced7;
   ${media.tablet`
     padding-left: 30px;

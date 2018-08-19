@@ -5,5 +5,11 @@
 .vid-custom {
     z-Index: 10;
     position: relative;
-    padding: 40px;
+    padding: 0;
+}
+
+.main {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;
 }
