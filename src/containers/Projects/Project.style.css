@@ -6,10 +6,92 @@
     z-Index: 10;
     position: relative;
     padding: 0;
+    top: 41px;
 }
 
 .main {
     padding-left: 120px;
     padding-right: 120px;
     padding-top: 50px;
+}
+
+#resume {
+    height: 1300px;
+}
+
+.parallax-class {
+    position: relative;
+    top: -75px;
+}
+
+.custom-eng-class {
+    position: relative;
+    top: -100px;
+}
+
+.custom-class {
+    position: relative;
+    top: -20px;
+}
+
+.understood {
+    top: -181px;
+}
+
+.understood h1 {
+    font-size: 4.2em;
+}
+
+.understood-content .see-detail {
+    top: 0px;
+}
+
+.nav-line-up-block {
+    padding: 47px;
+}
+
+.nav-line-up-block-small {
+    padding: 23px;
+}
+
+.title-container {
+    z-index: 11;
+    position: relative;
+}
+
+.contact-container {
+    top: 58px;
+}
+
+.contact-container .control span {
+    color: red;
+    background: white;
+    margin-left: 50px;
+    padding: 5px;
+    margin-top: 8px;
+    text-align: 0;
+    position: relative;
+    top: 8px;
+}
+
+.main-container {
+    z-index: 10;
+    position: relative;
+}
+
+.climate {
+    width: 50%;
+}
+
+.climate-link {
+    left: 882px;
+}
+
+#resume .main-container {
+    padding-top: 79px;
+    position: relative;
+}
+
+.contact-image img {
+    border: 1px solid deeppink;
 }

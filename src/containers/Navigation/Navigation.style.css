@@ -1,5 +1,29 @@
 .item-anchor.active {
-    background-color: black;
+    background-color: deeppink;
     color: white;
     font-size: 600;
+}
+
+#homes.home,
+#resumes.resume,
+#abouts.about,
+#projects.projects,
+#contacts.contact {
+    background: black;
+}
+
+#homes.home a,
+#resumes.resume a,
+#abouts.about a,
+#projects.projects a,
+#contacts.contact a {
+    color: #ffffff
+}
+
+#homes.home a .nav-wrapper,
+#resumes.resume a .nav-wrapper,
+#abouts.about a .nav-wrapper,
+#projects.projects a .nav-wrapper,
+#contacts.contact a .nav-wrapper {
+    border-bottom: 2px solid deeppink;
 }

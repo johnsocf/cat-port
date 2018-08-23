@@ -13,9 +13,22 @@ export const ContactContainer = styled.h1`
  label {
     font-weight: 600;
     padding: 5px;
+    display: none;
+ }
+ input {
+    width: 50%;
  }
  input, textarea {
     padding-top: 5px;
+    border-color: #000000;
+    color: #363636;
+    box-shadow: none;
+ }
+ .button.is-link {
+    background-color: black;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 2px;
  }
 `;
 

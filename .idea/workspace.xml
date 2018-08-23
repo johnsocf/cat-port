@@ -2,22 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bb7a13f-4a05-4e48-a66c-5f16c42e2ffb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/clouds_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/contact.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/contact_clouds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/cover.mov" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/cover.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Navigation/Navigation.style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/climate_desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/climate_set.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/clouds_uw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/flash_flood_desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/flash_flood_port_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/inntopia_desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/inntopia_port1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/logo_mini.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/machine_learning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/ml_algo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/mtns.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/resume.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sierra_d_port1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sierra_designs_desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sports_labs_desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/sports_labs_port1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/top_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/understood_desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/understood_port_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/App/App.style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js" afterPath="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/App/App.js" afterPath="$PROJECT_DIR$/src/containers/App/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.style.js" afterPath="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.style.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Navigation/Navigation.js" afterPath="$PROJECT_DIR$/src/containers/Navigation/Navigation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Navigation/Navigation.style.css" afterPath="$PROJECT_DIR$/src/containers/Navigation/Navigation.style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Navigation/Navigation.style.js" afterPath="$PROJECT_DIR$/src/containers/Navigation/Navigation.style.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Projects/Project.style.css" afterPath="$PROJECT_DIR$/src/containers/Projects/Project.style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Projects/Projects.js" afterPath="$PROJECT_DIR$/src/containers/Projects/Projects.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Projects/Projects.style.js" afterPath="$PROJECT_DIR$/src/containers/Projects/Projects.style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme/grid.js" afterPath="$PROJECT_DIR$/src/theme/grid.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -39,153 +52,101 @@
     <favorites_list name="portfolio" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45061043">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Navigation.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8534483">
-                  <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Navigation.style.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.style.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-40.555557">
-                  <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.0980393">
-                  <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Navigation.style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.5">
-                  <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ContactMe.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.111111">
-                  <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#674#848#0" expanded="false" />
-                    <element signature="e#856#1032#0" expanded="false" />
-                    <element signature="e#1040#1205#0" expanded="false" />
-                    <element signature="e#1434#1580#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/routes.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="Projects.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.814815">
-                  <caret line="313" column="22" selection-start-line="313" selection-start-column="22" selection-end-line="313" selection-end-column="64" />
-                  <folding>
-                    <element signature="e#1599#1805#0" expanded="false" />
-                    <element signature="e#1819#2027#0" expanded="false" />
-                    <element signature="e#2310#2488#0" expanded="false" />
-                    <element signature="e#5314#5928#0" expanded="false" />
-                    <element signature="e#5945#6388#0" expanded="false" />
-                    <element signature="e#6405#6795#0" expanded="false" />
-                    <element signature="e#7018#7250#0" expanded="false" />
-                    <element signature="e#7269#9504#0" expanded="false" />
-                    <element signature="e#9523#9745#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Projects.style.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.style.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-59.037037">
-                  <caret line="140" column="27" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="grid.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/theme/grid.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Project.style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/Projects/Project.style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.125">
-                  <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ContactMe.style.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/containers/ContactMe/ContactMe.style.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.67241377">
-                  <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Projects.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.111111">
+              <caret line="653" column="48" selection-start-line="653" selection-start-column="48" selection-end-line="653" selection-end-column="48" />
+              <folding>
+                <element signature="e#6699#7178#0" expanded="false" />
+                <element signature="e#7502#7885#0" expanded="false" />
+                <element signature="e#11487#11974#0" expanded="false" />
+                <element signature="e#11999#12561#0" expanded="false" />
+                <element signature="e#16987#21032#0" expanded="false" />
+                <element signature="e#21061#25103#0" expanded="false" />
+                <element signature="e#25132#29403#0" expanded="false" />
+                <element signature="e#25408#27325#0" expanded="false" />
+                <element signature="e#30152#32321#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Project.style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Projects/Project.style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.470589">
+              <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Navigation.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32642487">
+              <caret line="30" column="88" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Navigation.style.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.style.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.814815">
+              <caret line="59" column="20" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Navigation.style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactMe.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.888889">
+              <caret line="103" column="14" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="14" />
+              <folding>
+                <element signature="e#674#848#0" expanded="false" />
+                <element signature="e#856#1032#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Projects.style.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.style.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.814815">
+              <caret line="277" column="26" selection-start-line="277" selection-start-column="22" selection-end-line="277" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/theme/grid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.444445">
+              <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -246,7 +207,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/containers/PlayBtn/PlayBtn.js" />
         <option value="$PROJECT_DIR$/src/containers/AboutMe/AboutMe.js" />
-        <option value="$PROJECT_DIR$/src/containers/App/App.js" />
         <option value="$PROJECT_DIR$/src/containers/AboutMe/AboutMe.style.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/Root.js" />
@@ -254,17 +214,20 @@
         <option value="$PROJECT_DIR$/node_modules/react-toggle-state/lib/react-toggle-state.js" />
         <option value="$PROJECT_DIR$/src/containers/Fire.js" />
         <option value="$PROJECT_DIR$/src/containers/App/App.style.js" />
-        <option value="$PROJECT_DIR$/src/containers/Projects/Projects.style.js" />
         <option value="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js" />
-        <option value="$PROJECT_DIR$/src/theme/grid.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
-        <option value="$PROJECT_DIR$/src/containers/Navigation/Navigation.style.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.style.js" />
+        <option value="$PROJECT_DIR$/src/containers/Navigation/Navigation.style.css" />
         <option value="$PROJECT_DIR$/src/containers/Navigation/Navigation.style.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/containers/App/App.style.css" />
+        <option value="$PROJECT_DIR$/src/containers/App/App.js" />
+        <option value="$PROJECT_DIR$/src/containers/Projects/Projects.style.js" />
+        <option value="$PROJECT_DIR$/src/theme/grid.js" />
+        <option value="$PROJECT_DIR$/src/containers/Projects/Projects.js" />
         <option value="$PROJECT_DIR$/src/containers/Projects/Project.style.css" />
         <option value="$PROJECT_DIR$/src/containers/Navigation/Navigation.js" />
-        <option value="$PROJECT_DIR$/src/containers/Projects/Projects.js" />
-        <option value="$PROJECT_DIR$/src/containers/ContactMe/ContactMe.style.js" />
       </list>
     </option>
   </component>
@@ -279,10 +242,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
+    <option name="x" value="22" />
     <option name="y" value="25" />
-    <option name="width" value="1171" />
-    <option name="height" value="677" />
+    <option name="width" value="1212" />
+    <option name="height" value="676" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -487,28 +450,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -526,17 +471,17 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/containers" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/containers/Home" />
-      <recent name="$PROJECT_DIR$/src/containers/App" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/containers/ContactMe" />
       <recent name="$PROJECT_DIR$/src/containers" />
       <recent name="$PROJECT_DIR$/src/containers/AboutMe" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/containers" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/containers/Home" />
+      <recent name="$PROJECT_DIR$/src/containers/App" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -625,10 +570,10 @@
     <option name="totallyTimeSpent" value="46748000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="25" width="1171" height="677" extended-state="0" />
+    <frame x="22" y="25" width="1212" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23057216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0849835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -670,18 +615,11 @@
           <line>40</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/theme/types.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -729,15 +667,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding>
-            <element signature="e#1599#1805#0" expanded="false" />
-            <element signature="e#1819#2027#0" expanded="false" />
-            <element signature="e#2310#2488#0" expanded="false" />
-            <element signature="e#5314#5928#0" expanded="false" />
-            <element signature="e#5945#6388#0" expanded="false" />
-            <element signature="e#6405#6795#0" expanded="false" />
-            <element signature="e#7018#7250#0" expanded="false" />
-            <element signature="e#7269#9504#0" expanded="false" />
-            <element signature="e#9523#9745#0" expanded="false" />
+            <element signature="e#6699#7178#0" expanded="false" />
+            <element signature="e#7502#7885#0" expanded="false" />
+            <element signature="e#11487#11974#0" expanded="false" />
+            <element signature="e#11999#12561#0" expanded="false" />
+            <element signature="e#16987#21032#0" expanded="false" />
+            <element signature="e#21061#25103#0" expanded="false" />
+            <element signature="e#25132#29403#0" expanded="false" />
+            <element signature="e#25408#27325#0" expanded="false" />
+            <element signature="e#30152#32321#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -891,11 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <marker date="1533488286885" expanded="true" signature="242:380" placeholder="&lt;xml/&gt;" />
-            <marker date="1533488286885" expanded="true" signature="277:362" placeholder="&lt;xml/&gt;" />
-            <marker date="1533488286885" expanded="true" signature="407:453" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="106" column="9" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,18 +870,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
+    <entry file="file://$PROJECT_DIR$/node_modules/redux-form/dist/redux-form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-8.172414">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0980393">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/App/App.js">
+    <entry file="file://$PROJECT_DIR$/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/ContactMe/ContactMe.style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -963,10 +919,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/redux-form/dist/redux-form.js">
+    <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.172414">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.4705882">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/App/App.style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/App/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.11111">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.888889">
+          <caret line="103" column="14" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="14" />
+          <folding>
+            <element signature="e#674#848#0" expanded="false" />
+            <element signature="e#856#1032#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.814815">
+          <caret line="277" column="26" selection-start-line="277" selection-start-column="22" selection-end-line="277" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/theme/grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.444445">
+          <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.111111">
+          <caret line="653" column="48" selection-start-line="653" selection-start-column="48" selection-end-line="653" selection-end-column="48" />
+          <folding>
+            <element signature="e#6699#7178#0" expanded="false" />
+            <element signature="e#7502#7885#0" expanded="false" />
+            <element signature="e#11487#11974#0" expanded="false" />
+            <element signature="e#11999#12561#0" expanded="false" />
+            <element signature="e#16987#21032#0" expanded="false" />
+            <element signature="e#21061#25103#0" expanded="false" />
+            <element signature="e#25132#29403#0" expanded="false" />
+            <element signature="e#25408#27325#0" expanded="false" />
+            <element signature="e#30152#32321#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Projects/Project.style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.470589">
+          <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.814815">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -979,107 +1012,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0980393">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-40.555557">
-          <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Projects/Project.style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-59.037037">
-          <caret line="140" column="27" selection-start-line="140" selection-start-column="17" selection-end-line="140" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/theme/grid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/ContactMe/ContactMe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.111111">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#674#848#0" expanded="false" />
-            <element signature="e#856#1032#0" expanded="false" />
-            <element signature="e#1040#1205#0" expanded="false" />
-            <element signature="e#1434#1580#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Navigation/Navigation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8534483">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Projects/Projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.814815">
-          <caret line="313" column="22" selection-start-line="313" selection-start-column="22" selection-end-line="313" selection-end-column="64" />
-          <folding>
-            <element signature="e#1599#1805#0" expanded="false" />
-            <element signature="e#1819#2027#0" expanded="false" />
-            <element signature="e#2310#2488#0" expanded="false" />
-            <element signature="e#5314#5928#0" expanded="false" />
-            <element signature="e#5945#6388#0" expanded="false" />
-            <element signature="e#6405#6795#0" expanded="false" />
-            <element signature="e#7018#7250#0" expanded="false" />
-            <element signature="e#7269#9504#0" expanded="false" />
-            <element signature="e#9523#9745#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/ContactMe/ContactMe.style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67241377">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.32642487">
+          <caret line="30" column="88" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
           <folding />
         </state>
       </provider>

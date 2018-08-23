@@ -10,6 +10,11 @@ export const NavigationWrapper = styled.div`
   position: fixed;
    z-index: 100;
    width: 100%;
+   border: 2px solid deeppink;
+   border-left: 0px;
+   border-right: 0px;
+   top: 0;
+   left: 0;
 `;
 
 export const NavigationContainer = styled.ul`
@@ -20,6 +25,8 @@ export const NavigationContainer = styled.ul`
   justify-content: center;
   background: #ffffff;
   border: 1px solid #000000;
+  border-left: 0px;
+  border-right: 0px;
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -34,6 +41,8 @@ export const NavItem = styled.li`
         cursor: pointer;
         color: #000000;
         position: relative;
+        border: 1px solid transparent;
+        text-transform: uppercase;
 
         text-decoration: none;
         transition-duration: 500ms;
@@ -48,7 +57,8 @@ export const NavItem = styled.li`
     &:hover {
         .item-anchor {
           color: #FFFFFF;
-          background-color: ${pink};
+          background-color: black;
+
           //z-index: -1;
           // transform: scale(1.1, 1.2);
           //border-right: 1px solid #000000;
@@ -72,9 +82,21 @@ export const NavItem = styled.li`
         }
         .item-anchor {
             opacity: 0px;
+            border-left: 1px solid deeppink;
+            border-right: 1px solid deeppink;
         }
     }
-    a {text-decoration: none;}
+    a {text-decoration: none; color: #000000;}
+    &.logo {
+       display: block;
+       img {
+            height: auto;
+            max-width: 73px;
+            position: absolute;
+            top: 3px;
+            right: 142px;
+        }
+    }
 `;
 
 export const NavItemAnchor = styled(Link)`

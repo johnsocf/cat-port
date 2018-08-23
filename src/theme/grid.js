@@ -38,7 +38,7 @@ export const Container = styled(Div)`
 
 export const Relative = styled(Div)`
   position: relative;
-  
+  z-index: 10;
 `;
 
 export const Flex = styled(Div)`
@@ -55,4 +55,9 @@ export const Flex = styled(Div)`
    ${({align})=> align && css`
     align-content: ${align};  
    `}
+`;
+
+export const OutlineContainer = styled.div`
+    border: 1px solid turquoise;
+    padding: 17px 10px 10px 10px;
 `;

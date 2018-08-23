@@ -4,6 +4,7 @@ import Navigation from '../Navigation/Navigation'
 import ReallySmoothScroll from 'really-smooth-scroll';
 import {hashHistory} from 'react-router';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import './App.style.css';
 
 hashHistory.listen(()=> {
   console.log('history');
@@ -16,7 +17,7 @@ class App extends Component {
   render() {
     return (
     <ParallaxProvider>
-      <div>
+      <div className="very-outer-wrapper">
         <Background/>
         <Navigation/>
         {this.props.children}
