@@ -50,7 +50,7 @@ let SignInForm = props => {
 
     </form>
     <BackgroundContactImage>
-      <img src={require('../../assets/contact_clouds.png')}/>
+      <img/>
     </BackgroundContactImage>
   </ContactContainer>;
 };

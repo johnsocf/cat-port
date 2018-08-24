@@ -35,11 +35,12 @@
 }
 
 .understood {
-    top: -181px;
+    top: -118px;
 }
 
 .understood h1 {
-    font-size: 4.2em;
+    /*font-size: 4.2em;*/
+    font-size: 45px;
 }
 
 .understood-content .see-detail {
@@ -93,5 +94,10 @@
 }
 
 .contact-image img {
-    border: 1px solid deeppink;
+    border: 3px solid deeppink;
+}
+
+.mtn-image {
+    background: url(../../assets/sunrise_mtns.jpg);
+    background-size: cover;
 }

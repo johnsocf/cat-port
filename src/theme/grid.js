@@ -58,6 +58,6 @@ export const Flex = styled(Div)`
 `;
 
 export const OutlineContainer = styled.div`
-    border: 1px solid turquoise;
+    border: 20px solid black;
     padding: 17px 10px 10px 10px;
 `;

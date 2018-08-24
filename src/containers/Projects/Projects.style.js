@@ -42,8 +42,10 @@ export const Index = styled.div`
   opacity: 1;
   transition: opacity .8s ease-out;
   h1 {
-    font-size: 9em;
+    //font-size: 9em;
+    font-size: 45px;
     pointer-events: none;
+    padding-left: 10px;
     margin: 0px;
     font-weight: bold;
     color: rgb(0, 255, 249);;
@@ -165,7 +167,7 @@ export const WebsiteTarget = styled.a`
 
 export const ProjContainer = styled.div`
    position: relative;
-   padding-top: 102px;
+   padding-top: 50px;
    &:hover {
         .anim-title {
             left: 116px;
@@ -237,6 +239,7 @@ export const BoldTag = styled.p`
         color: #000000;
         background-color: #ffffff;
         padding: 2px 12px;
+        border: 2px solid black;
     }
     &:hover a {
         color: deeppink;
@@ -252,6 +255,7 @@ export const BoldSimpleTag = styled.p`
         color: #000000;
         background-color: #ffffff;
         padding: 2px 12px;
+        border: 2px solid black;
     }
     &:hover a {
         color: deeppink;
@@ -274,8 +278,8 @@ export const BGImageContainer = styled.div`
     width: 81%;
     margin: 0 auto;
     padding: 10px 15px;
-    background: transparent;
-    border: 1px solid turquoise;
+    background: black;
+    border: 3px solid deeppink;
 `;
 
 export const BGImageContainerWide = styled.div`
@@ -333,5 +337,5 @@ export const TechSpecs = styled.div`
 export const AboutContainer = styled.div`
     background: #000000;
     padding: 20px;
-    border: 1px solid deeppink;
+    border: 3px solid deeppink;
 `;

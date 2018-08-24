@@ -266,8 +266,8 @@ class Projects extends Component {
             </Container>
                 <Relative id="resume">
 
-                    <BGImageContainerWide>
-                        <img src={require('../../assets/mtns.png')}/>
+                    <BGImageContainerWide className="mtn-image">
+
                     </BGImageContainerWide>
                     <Container>
                         <Relative>
@@ -416,7 +416,7 @@ class Projects extends Component {
                                     <ProjContainer>
                                         <Relative marginTop="0px" marginBottom="0px">
                                             <Index className="understood">
-                                                <h1>SIERRA D<span>esigns</span></h1>
+                                                <h1>SIERRA D<span>ESIGNS</span></h1>
                                             </Index>
                                         </Relative>
                                         <ProjAnimTitle className="anim-title">Sierra Designs</ProjAnimTitle>
@@ -481,7 +481,7 @@ class Projects extends Component {
                                     <ProjContainer>
                                         <Relative marginTop="0px" marginBottom="0px">
                                             <Index className="understood">
-                                                <h1>SPORTS L<span>abs</span></h1>
+                                                <h1>SPORTS L<span>ABS</span></h1>
                                             </Index>
                                         </Relative>
 

@@ -37,5 +37,5 @@ export const BackgroundContactImage = styled.div`
   top: 0px;
   left: 0px;
   z-index: -1;
-  opacity: .7;
+  opacity: .8;
 `;

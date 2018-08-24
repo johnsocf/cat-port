@@ -4,24 +4,24 @@ export const Image = styled.img`
  width: 100%;
 `;
 
-export const HeroImage = styled.div`
-  height: 70vh;
-  background-image: url('${require('../../assets/cat_profile.jpg')}');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-size: 40px;
-  
-  h1 {
-    margin-bottom: 0;
-  }
-`;
+//export const HeroImage = styled.div`
+//  height: 70vh;
+//  background-image: url('${require('../../assets/cat_profile.jpg')}');
+//  background-repeat: no-repeat;
+//  background-size: cover;
+//  background-position: center;
+//  display: flex;
+//  flex-direction: column;
+//  align-content: center;
+//  justify-content: center;
+//  text-align: center;
+//  color: white;
+//  font-size: 40px;
+//
+//  h1 {
+//    margin-bottom: 0;
+//  }
+//`;
 
 export const RevealP = styled.p`
   position: relative;

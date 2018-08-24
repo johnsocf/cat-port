@@ -10,10 +10,6 @@ export default class Home extends Component {
   render() {
     return(
       <Container>
-        <HeroImage>
-          <h1>Cat Johnson</h1>
-          <h2>Front End Developer</h2>
-        </HeroImage>
         {/*<Image src={require('../../assets/cat_profile.jpg')} alt="hero-image"/>*/}
         <WhenInView>
           {({isInView})=>
